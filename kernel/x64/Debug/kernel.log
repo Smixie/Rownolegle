@@ -1,0 +1,9 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Sebastian\Desktop\CUDA\kernel\kernel>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\Sebastian\Desktop\CUDA\kernel\kernel\x64\Debug\kernel.cu.obj "C:\Users\Sebastian\Desktop\CUDA\kernel\kernel\kernel.cu" 
+  kernel.cu
+  tmpxft_0000176c_00000000-7_kernel.cudafe1.cpp
+C:\Users\Sebastian\Desktop\CUDA\kernel\kernel\kernel.cu(32): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\Sebastian\Desktop\CUDA\kernel\kernel\kernel.cu(88): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Users\Sebastian\Desktop\CUDA\kernel\kernel\kernel.cu(88): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+  kernel.vcxproj -> C:\Users\Sebastian\Desktop\CUDA\kernel\x64\Debug\kernel.exe
